@@ -106,9 +106,9 @@ a { color: inherit; }
 
 .kicker { letter-spacing: 0.2em; text-transform: uppercase; font-size: 0.95rem; color: var(--muted); margin: 0 0 20px; }
 /* .hero h1 { font-size: clamp(3rem, 11vw, 6rem); line-height: 1.05; color: var(--rose); margin: 0; } */
-.hero h1 { font-size: clamp(4rem, 12vw, 7rem); line-height: 1.05; color: var(--rose); margin: 0; }
+.hero h1 { font-size: clamp(3rem, 11vw, 6rem); line-height: 1.05; color: var(--rose); margin: 0; }
 /* #heroNames { font-size: clamp(2.1rem, 7.5vw, 4.4rem); } */
- #heroNames { font-size: clamp(4rem, 12vw, 7rem); }
+ #heroNames { font-size: clamp(3rem, 11vw, 6rem); }
 /* .hero-sub { letter-spacing: 0.22em; text-transform: uppercase; font-size: 0.76rem; color: var(--muted); }
 .rule { height: 1px; background: linear-gradient(90deg, transparent, var(--gold), transparent); margin: 18px 0; } */
 .hero-tag { font-family: var(--bengali); font-size: 1.35rem; color: var(--ink); margin: 0; }
