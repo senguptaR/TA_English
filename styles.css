@@ -19,7 +19,8 @@
   --shadow-luxe: 0 24px 60px -24px rgba(120, 60, 70, 0.35);
   /*--grad-gold: linear-gradient(100deg, #c9a227, #f0dda2, #b8901f);*/
   --grad-gold: linear-gradient(180deg, #d19e1d 0%, #ffd86e 50%, #e3a812 100%);
-  --grad-gold2: linear-gradient(135deg, #FFDF00, #FFC500, #FFB300);
+  /*--grad-gold2: linear-gradient(135deg, #FFDF00, #FFC500, #FFB300); */
+  --grad-gold2: linear-gradient(135deg, #FF7B00 0%, #FFC300 50%, #FFEA00 100%);
 
 
   --cinzel: "Cinzel", serif; 
@@ -287,7 +288,7 @@ a { color: inherit; }
 /* Scratch */
 .scratch-wrap { position: relative; width: min(460px, 92vw); height: 250px; margin: 0 auto 20px; overflow: hidden; }
 .scratch-reveal { position: absolute; inset: 0; display: grid; place-content: center; text-align: center; gap: 2px; padding: 20px; }
-.scratch-reveal .script { font-size: 3.4rem; margin: 0; }
+.scratch-reveal .script { font-size: 3.4rem; margin: 0; text-shadow: 0px 1px 2px rgba(0,0,0,0.1) }
 .scratch-date-bn { font-family: var(--bengali); font-size: 2.0rem; margin: 0; }
 .scratch-date-en { font-family: var(--bengali); font-size: 1.4rem; margin: 0; }
 .scratch-day { font-family: var(--bengali); font-size: 1.5rem; margin: 0; color: var(--rose); }
@@ -423,7 +424,7 @@ a { color: inherit; }
 
 /* Thanks */
 .thanks { text-align: center; }
-.thanks h2 { font-size: clamp(3rem, 9vw, 4rem); }
+.thanks h2 { font-size: clamp(3rem, 9vw, 4rem); text-shadow: 0px 1px 2px rgba(0,0,0,0.1) }
 #thanksNames { color: var(--rose);  font-family: "Mea Culpa", "Tiro Bangla";  font-size: 3rem;  margin-bottom: 0.25rem; }
 #thanksInfo {  font-size: 0.9rem; color: #241d22; }
 #thanksInfo span { color: #241d22; }
@@ -524,10 +525,10 @@ h1 .bn, h2 .bn, h3 .bn, .title .bn { font-family: "Tiro Bangla", "Tiro Bangla", 
 
   padding: 6px 14px;
 
-  background: rgba(255,255,255,0.2);
+  background: rgba(255,255,255,0.5);
   backdrop-filter: blur(12px);
 
-  border: 1px solid rgba(201,162,39,0.35);
+  border: 3px solid rgba(201,162,39,0.5);
   border-radius: 999px;
 
   box-shadow: var(--shadow-soft);

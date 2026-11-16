@@ -24,13 +24,13 @@ window.WEDDING = {
   },
 
   wvenue: {
-    name: "Pathasathi Banquet",
-    address: "Kodalia, Sarat Sarani More, G.T. Road, Hooghly (Beside Purta Bhavan), West Bengal – 712123",
+    name: "Pathasathi Banquet (Beside Purta Bhavan)",
+    address: "Kodalia, Sarat Sarani More, G.T. Road, Hooghly, West Bengal – 712123",
   },
 
   venue: {
     name: "Pathasathi Banquet",
-    address: "Kodalia, Sarat Sarani More, G.T. Road, Hooghly (Beside Purta Bhavan), West Bengal – 712123",
+    address: "Beside Purta Bhavan, Kodalia, Sarat Sarani More, G.T. Road, Hooghly, West Bengal – 712123",
     mapsEmbed: "https://www.google.com/maps?q=Pathasathi+Park+and+Resorts,+hooghly,+Kodalia&output=embed",
     directions:
       "https://www.google.com/maps/dir//Pathasathi+Park+and+Resorts,+hooghly,+Kodalia,+442,+GT+Rd,+near+Kanara+Bank,+Kapasdanga+P,+Chinsurah,+West+Bengal+712123",
